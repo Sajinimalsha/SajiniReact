@@ -13,7 +13,7 @@ import {
   HarmBlockThreshold,
 } from "@google/generative-ai";
 
-const apiKey = "AIzaSyDZFihOqYNMXT0XSU71t4N3TdN7-ATkSE8";
+const apiKey = "";
 
 async function runChat(prompt) {
   const genAI = new GoogleGenerativeAI(apiKey);
